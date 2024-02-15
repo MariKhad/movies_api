@@ -1,0 +1,16 @@
+export enum Permissions {
+  CREATE_PLAYLIST = 'create_playlist',
+  COPY_PLAYLIST = 'copy_playlist',
+  UPDATE_YOUR_PLAYLIST = 'update_your_playlist',
+  DELETE_YOUR_PLAYLIST = 'delete_your_playlist',
+  GET_PUBLIC_PlAYLISTS = 'get_public_playlists',
+  MOVIES_CUD = 'movies_cud',
+  GET_MOVIES = 'get_movies',
+  DIRECTORS_CUD = 'directors_cud',
+  GET_DIRECTORS = 'get_directors',
+  GENRES_CUD = 'genres_cud',
+  GET_GENRES = 'get_genres',
+  GET_REPORTS = 'get_reports',
+  DELETE_REPORTS = 'delete_reports',
+  USERS_CRUD = 'users_crud',
+}
